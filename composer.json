@@ -12,5 +12,13 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "scripts": {
+        "check": [
+            "@php -l src/PhpStyle.php",
+            "@php tests/smoke.php",
+            "php-cs-fixer fix --dry-run --diff --using-cache=no"
+        ],
+        "fix": "php-cs-fixer fix"
+    }
 }
