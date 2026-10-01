@@ -1,7 +1,18 @@
 {
     "name": "hipsterjazzbo/php-style",
     "description": "Shared PHP-CS-Fixer configuration for HipsterJazzbo projects.",
+    "keywords": [
+        "php",
+        "php-cs-fixer",
+        "coding-style"
+    ],
+    "homepage": "https://github.com/hipsterjazzbo/php-style",
+    "license": "MIT",
     "type": "library",
+    "support": {
+        "issues": "https://github.com/hipsterjazzbo/php-style/issues",
+        "source": "https://github.com/hipsterjazzbo/php-style"
+    },
     "require": {
         "php": "^8.3",
         "friendsofphp/php-cs-fixer": "^3.95"
