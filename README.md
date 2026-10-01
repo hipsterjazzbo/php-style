@@ -6,27 +6,13 @@ The package owns the common rules. Each project still owns its own `Finder`, so 
 
 ## Install
 
-Until this package is published on Packagist, add the GitHub repository to the consuming project's `composer.json`:
-
-```json
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/hipsterjazzbo/php-style"
-        }
-    ],
-    "require-dev": {
-        "hipsterjazzbo/php-style": "dev-main"
-    }
-}
-```
-
-Then run:
+Once the package is available on Packagist:
 
 ```bash
-composer update hipsterjazzbo/php-style
+composer require --dev hipsterjazzbo/php-style:^0.1
 ```
+
+Before the first Packagist release is indexed, Composer can install directly from GitHub by adding this repository as a VCS source and requiring `dev-main`.
 
 ## Use
 
